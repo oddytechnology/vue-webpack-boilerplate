@@ -1,0 +1,52 @@
+{
+  "name": "@oddytech/vue-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack + Vue Standalone App Boilerplate",
+  "main": "index.html",
+  "author": "Oddy Tech <production@oddytech.fi>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=config/webpack.config.js",
+    "watch": "yarn run development -- --watch",
+    "watch-poll": "yarn run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=config/webpack.config.js",
+    "build": "yarn run prod",
+    "prod": "yarn run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=config/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "glob-all": "^3.1.0",
+    "html-critical-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "sass-loader": "^8.0.0",
+    "serialize-javascript": "2.1.2",
+    "style-loader": "^1.1.2",
+    "terser-webpack-plugin": "^2.3.1",
+    "url-loader": "^3.0.0",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-manifest-plugin": "^2.2.0"
+  },
+  "dependencies": {
+    "buefy": "^0.8.12",
+    "bulma": "^0.8.0",
+    "vue": "^2.6.11"
+  }
+}
