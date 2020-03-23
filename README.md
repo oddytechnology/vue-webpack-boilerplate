@@ -23,10 +23,9 @@ Some of the functionality is based and inspired by laravel-mix, however this pro
 
 ## Install
 
-`yarn init`
-`yarn add @oddytech/webpack-vue-boilerplate`
-`yarn install`
-
+`yarn init`  
+`yarn add @oddytech/webpack-vue-boilerplate`  
+`yarn install`  
 
 ## Run and compile
 
