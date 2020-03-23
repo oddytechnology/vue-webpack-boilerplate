@@ -23,9 +23,7 @@ Some of the functionality is based and inspired by laravel-mix, however this pro
 
 ## Install
 
-`yarn init`  
-`yarn add @oddytech/webpack-vue-boilerplate`  
-`yarn install`  
+`git clone git@github.com:oddytechnology/vue-webpack-boilerplate.git <your-project>`  
 
 ## Run and compile
 
